@@ -201,16 +201,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     let clickCount = 0; // 记录点击 No 的次数 | Record the number of clicks on the No button
 // No 按钮点击事件 | No button click event
-    const noTexts = {
-        "哥哥？真的吗？",
-        "要不要再想想？",
-        "不许选这个！",
-        "萱萱会伤心的",
-        "不行:(",
-        "再考虑考虑好不好"
-        
-        
-    }
+    
     elements.noButton.addEventListener('click', function () {
         clickCount++;
     // 让 Yes 变大，每次放大 2 倍 | Make Yes button bigger, double the size each time
@@ -236,7 +227,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
         if (clickCount in imageMap) {
             elements.mainImage.src = imageMap[clickCount];
-        } else if (clickCount >= 6) {
+        } else if (clickCount >= 5) {
             elements.mainImage.src = "assets/images/crying.png";
         }
     });
