@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 // 确保用户名安全地插入 | Ensure the username is inserted safely
         document.body.innerHTML = `
             <div class="yes-screen">
-                <h1 class="yes-text"></h1>
+                <h1 class="yes-text">喜欢你ε٩(๑> ₃ <)۶з  </h1>
                 <img src="assets/images/hug.png" alt="Hug" class="yes-image">
             </div>
         `;
