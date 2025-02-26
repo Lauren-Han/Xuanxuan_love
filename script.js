@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
         if (clickCount in imageMap) {
             elements.mainImage.src = imageMap[clickCount];
-        } else if (clickCount >= 5) {
+        } else if (clickCount >= 6) {
             elements.mainImage.src = "assets/images/crying.png";
         }
     });
